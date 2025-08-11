@@ -1,0 +1,91 @@
+{
+  "name": "package-name",
+  "version": "1.0.0",
+  "description": "Description here",
+  "keywords": ["keyword1", "keyword2"],
+  "homepage": "https://example.com",
+  "license": "MIT",
+  "author": "Author Name",
+  "contributors": ["Contributor 1"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/repo.git"
+  },
+  "bugs": {
+    "url": "https://example.com/bugs",
+    "email": "bugs@example.com"
+  },
+  "GitHub URLs": [
+    "https://github.com/user/repo"
+  ],
+  "files": ["lib/", "bin/"],
+  "directories": {
+    "lib": "lib",
+    "bin": "bin",
+    "man": "man"
+  },
+  "man": ["manpage1", "manpage2"],
+  "main": "index.js",
+  "browser": "browser.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "command-name": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "config": {
+    "port": "8080"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  },
+  "bundleDependencies": ["lodash"],
+  "overrides": {
+    "lodash": "^4.17.21"
+  },
+  "URLs as Dependencies": [
+    "https://example.com/package.tgz"
+  ],
+  "Git URLs as Dependencies": [
+    "git+https://github.com/user/repo.git"
+  ],
+  "Local Paths": [
+    "file:../local-package"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devEngines": {
+    "node": ">=14.0.0"
+  },
+  "os": ["darwin", "linux"],
+  "cpu": ["x64", "arm64"],
+  "libc": ["glibc"],
+  "private": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://example.com/funding"
+  },
+  "workspaces": ["packages/*"]
+}

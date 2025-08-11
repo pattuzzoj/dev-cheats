@@ -1,0 +1,165 @@
+{
+  "compilerOptions": {
+    // Type Checking
+    "allowUnreachableCode": false,            // Permit unreachable code without error
+    "allowUnusedLabels": false,               // Permit unused labels without error
+    "alwaysStrict": true,                      // Enable 'use strict' globally
+    "exactOptionalPropertyTypes": false,      // Treat optional properties exactly
+    "noFallthroughCasesInSwitch": true,       // Prevent fallthrough in switch cases
+    "noImplicitAny": true,                     // Error on implicit any types
+    "noImplicitOverride": true,                // Require 'override' modifier for overrides
+    "noImplicitReturns": true,                 // Error if function lacks return in all paths
+    "noImplicitThis": true,                    // Error on 'this' expressions with implicit any
+    "noPropertyAccessFromIndexSignature": false, // Disallow property access via index signature
+    "noUncheckedIndexedAccess": false,         // Add undefined to indexed access types
+    "noUnusedLocals": true,                     // Error on unused local variables
+    "noUnusedParameters": true,                 // Error on unused function parameters
+    "strict": true,                            // Enable all strict type-checking options
+    "strictBindCallApply": true,               // Check bind/call/apply methods strictly
+    "strictFunctionTypes": true,                // Strict checking of function types
+    "strictNullChecks": true,                   // Enable strict null checks
+    "strictPropertyInitialization": true,      // Check class property initialization
+    "useUnknownInCatchVariables": true,        // Use unknown type for catch clause variables
+
+    // Modules
+    "allowArbitraryExtensions": false,         // Allow arbitrary extensions in imports
+    "allowImportingTsExtensions": false,       // Allow importing .ts extensions
+    "allowUmdGlobalAccess": false,              // Allow accessing UMD globals from modules
+    "baseUrl": ".",                            // Base path for module resolution
+    "customConditions": [],                      // Custom conditions for exports resolution
+    "module": "CommonJS",                      // Module code generation target
+    "moduleResolution": "Node",                 // Module resolution strategy
+    "moduleSuffixes": [],                        // Suffixes for module lookups
+    "noResolve": false,                        // Do not resolve imports
+    "noUncheckedSideEffectImports": false,     // Disallow unchecked side effect imports
+    "paths": {},                               // Path mapping for module resolution
+    "resolveJsonModule": false,                 // Allow importing JSON modules
+    "resolvePackageJsonExports": false,        // Use package.json exports field for resolution
+    "resolvePackageJsonImports": false,        // Use package.json imports field for resolution
+    "rewriteRelativeImportExtensions": false,     // Extensions to rewrite on relative imports
+    "rootDir": ".",                            // Root directory of input files
+    "rootDirs": [],                             // List of root directories
+    "typeRoots": [],                            // List of folders for type declarations
+    "types": [],                               // List of type declaration packages to include
+
+    // Emit
+    "declaration": false,                      // Generate declaration files (.d.ts)
+    "declarationDir": "./",                    // Output directory for declarations
+    "declarationMap": false,                   // Generate sourcemaps for declarations
+    "downlevelIteration": false,               // Support iterables on older targets
+    "emitBOM": false,                         // Emit BOM in output files
+    "emitDeclarationOnly": false,              // Only emit declaration files, no JS
+    "importHelpers": false,                    // Use import helpers from tslib
+    "inlineSourceMap": false,                  // Embed sourcemaps in output files
+    "inlineSources": false,                    // Embed source files in sourcemaps
+    "mapRoot": "",                            // Specify location where sourcemaps are stored
+    "newLine": "lf",                          // Newline character (crlf or lf)
+    "noEmit": false,                          // Do not emit output files
+    "noEmitHelpers": false,                    // Do not generate helper functions
+    "noEmitOnError": false,                    // Do not emit files if errors occur
+    "outDir": "./dist",                        // Output directory for compiled files
+    "outFile": "",                            // Concatenate output into single file
+    "preserveConstEnums": false,              // Do not inline const enums
+    "removeComments": true,                    // Remove comments in output files
+    "sourceMap": false,                        // Generate source map files
+    "sourceRoot": "",                         // Location where sourcemaps locate source files
+    "stripInternal": false,                    // Remove declarations marked internal
+
+    // JavaScript Support
+    "allowJs": false,                         // Allow compiling JS files
+    "checkJs": false,                         // Enable type checking on JS files
+    "maxNodeModuleJsDepth": 0,                // Max depth for JS checking in node_modules
+
+    // Editor Support
+    "disableSizeLimit": false,                 // Disable size limit warnings in editors
+    "plugins": [],                             // List of language service plugins
+
+    // Interop Constraints
+    "allowSyntheticDefaultImports": false,    // Allow default imports from modules with no default export
+    "erasableSyntaxOnly": false,               // Enable erasing only syntax kinds in output
+    "esModuleInterop": false,                   // Enable Babel/TypeScript interoperability
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing in file names
+    "isolatedDeclarations": false,             // Emit declarations with isolatedModules flag
+    "isolatedModules": false,                   // Ensure all files can be transpiled independently
+    "preserveSymlinks": false,                  // Preserve symbolic links instead of real paths
+    "verbatimModuleSyntax": false,              // Emit imports exactly as written
+
+    // Backwards Compatibility
+    "charset": "utf8",                         // Charset for input files
+    "importsNotUsedAsValues": "remove",        // What to do with imports only used as types
+    "keyofStringsOnly": false,                  // Only allow keyof on strings
+    "noImplicitUseStrict": false,               // Do not emit 'use strict' directives
+    "noStrictGenericChecks": false,             // Disable strict generic checks
+    "out": "",                                // Deprecated outFile option
+    "preserveValueImports": false,              // Preserve unused imports which have side effects
+    "suppressExcessPropertyErrors": false,     // Suppress errors for excess properties
+    "suppressImplicitAnyIndexErrors": false,   // Suppress errors for implicit any index
+
+    // Language and Environment
+    "emitDecoratorMetadata": false,            // Emit decorator metadata for reflection
+    "experimentalDecorators": false,            // Enable experimental support for decorators
+    "jsx": "preserve",                          // JSX code generation mode
+    "jsxFactory": "React.createElement",       // JSX factory function
+    "jsxFragmentFactory": "React.Fragment",    // JSX fragment factory function
+    "jsxImportSource": "",                      // JSX import source for automatic runtime
+    "lib": [],                                // List of library files to include
+    "libReplacement": false,                       // Replace specified library files
+    "moduleDetection": "auto",                  // Module detection mode
+    "noLib": false,                            // Do not include default library files
+    "reactNamespace": "React",                  // React namespace for JSX
+    "target": "ES5",                           // ECMAScript target version
+    "useDefineForClassFields": false,           // Use define instead of assignment for class fields
+
+    // Compiler Diagnostics
+    "diagnostics": false,                       // Show diagnostic information
+    "explainFiles": false,                       // Explain file inclusion
+    "extendedDiagnostics": false,               // Show extended diagnostic information
+    "generateCpuProfile": "",                    // File name for CPU profiling
+    "generateTrace": "",                         // File name for tracing
+    "listEmittedFiles": false,                   // List emitted files
+    "listFiles": false,                          // List files part of the compilation
+    "noCheck": false,                            // Disable semantic checking
+    "traceResolution": false,                    // Trace module resolution
+
+    // Projects
+    "composite": false,                          // Enable project compilation
+    "disableReferencedProjectLoad": false,      // Disable loading referenced projects
+    "disableSolutionSearching": false,           // Disable solution searching
+    "disableSourceOfProjectReferenceRedirect": false, // Disable source redirect
+    "incremental": false,                        // Enable incremental compilation
+    "tsBuildInfoFile": "",                       // File path for incremental info
+
+    // Output Formatting
+    "noErrorTruncation": false,                  // Do not truncate error messages
+    "preserveWatchOutput": false,                 // Preserve output while watching
+    "pretty": true,                             // Enable pretty output formatting
+
+    // Completeness
+    "skipDefaultLibCheck": false,                // Skip default library checking
+    "skipLibCheck": false,                        // Skip type checking of declaration files
+
+    // Command Line
+
+    // Watch Options
+    "assumeChangesOnlyAffectDirectDependencies": false,  // Optimize watch by assuming changes only affect direct dependencies
+    "watchFile": "fixedPollingInterval",                  // Watch file strategy
+    "watchDirectory": "useFsEvents",               // Watch directory strategy
+    "fallbackPolling": "dynamicPriority",           // Polling fallback strategy
+    "synchronousWatchDirectory": false,             // Watch directories synchronously
+    "excludeDirectories": [],                        // Directories to exclude from watching
+    "excludeFiles": [],                              // Files to exclude from watching
+
+    // Type Acquisition (for JS projects)
+    "typeAcquisition": {
+      "enable": true,                              // Enable automatic type acquisition
+      "include": [],                               // Types to include
+      "exclude": [],                               // Types to exclude
+      "disableFilenameBasedTypeAcquisition": false // Disable filename based type acquisition
+    }
+  },
+
+  // Include/exclude files
+  "files": [],                                  // Explicit files to include
+  "include": [],                                // Glob patterns to include
+  "exclude": [],                                // Glob patterns to exclude
+}
