@@ -1,7 +1,3 @@
-Segue o texto com os comandos e parâmetros colocados entre colchetes, conforme solicitado:
-
----
-
 # Linux
 
 Linux is a Unix-like, open-source operating system kernel that serves as the core of countless distributions. It manages hardware resources, provides essential services for software, and enables multi-user, multitasking operation with robust security.

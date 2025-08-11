@@ -1,0 +1,63 @@
+{
+  "name": "The name of the package.",
+  "version": "The version number of the package.",
+  "description": "A short description of the package.",
+  "keywords": "An array of keywords for package search optimization.",
+  "homepage": "The URL to the package's homepage.",
+  "license": "The license type under which the package is distributed.",
+  "author": "The name or information about the package author.",
+  "contributors": "A list of contributors to the package.",
+  "repository": {
+    "type": "The type of version control system used (e.g., git).",
+    "url": "The URL to the source code repository."
+  },
+  "bugs": {
+    "url": "The URL where users can report issues.",
+    "email": "The email address for reporting bugs."
+  },
+  "GitHub URLs": "URLs linking to relevant GitHub repositories or pages.",
+  "files": "An array specifying which files or directories to include when publishing.",
+  "directories": {
+    "lib": "Directory containing library files.",
+    "bin": "Directory containing executable files.",
+    "man": "Directory containing manual pages."
+  },
+  "man": "An array listing manual pages associated with the package.",
+  "main": "The primary entry point file of the package.",
+  "browser": "An alternative entry point optimized for browser environments.",
+  "exports": {
+    ".": "Defines the entry points for module exports."
+  },
+  "bin": {
+    "command-name": "Maps executable command names to their corresponding files."
+  },
+  "scripts": {
+    "test": "Script command to run tests.",
+    "start": "Script command to start the application."
+  },
+  "config": {
+    "port": "Configuration parameters for the package, e.g., server port."
+  },
+  "dependencies": "Packages required for the package to run properly.",
+  "devDependencies": "Packages required only during development.",
+  "peerDependencies": "Packages that the consumer must install alongside this package.",
+  "peerDependenciesMeta": "Metadata for peer dependencies, such as optional flags.",
+  "optionalDependencies": "Dependencies that are optional and not critical.",
+  "bundleDependencies": "Dependencies to be bundled within the package.",
+  "overrides": "Overrides to force specific dependency versions.",
+  "URLs as Dependencies": "Dependencies referenced via URLs to external package archives.",
+  "Git URLs as Dependencies": "Dependencies pulled directly from git repositories.",
+  "Local Paths": "Dependencies referenced via local filesystem paths.",
+  "engines": "Specifies compatible Node.js or other runtime versions.",
+  "devEngines": "Specifies engine versions required for development.",
+  "os": "Operating systems supported by the package.",
+  "cpu": "CPU architectures supported by the package.",
+  "libc": "Supported C libraries or libc implementations.",
+  "private": "Boolean indicating if the package is private and unpublished.",
+  "publishConfig": "Configuration related to publishing, such as registry URLs.",
+  "funding": {
+    "type": "The type or source of funding for the package.",
+    "url": "URL providing funding information."
+  },
+  "workspaces": "Configuration for monorepo workspace patterns."
+}
