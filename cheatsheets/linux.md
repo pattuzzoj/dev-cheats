@@ -33,19 +33,20 @@ Linux is a Unix-like, open-source operating system kernel that serves as the cor
 | --------------------------- | ----------------------------------------------------- |
 | ls                          | Lists files and directories in the current directory. |
 | pwd                         | Shows the full path of the current directory.         |
-| cd [directory]             | Changes to the specified directory.                   |
-| mkdir [directory]          | Creates a new directory.                              |
-| rm [file]                  | Deletes a file.                                       |
-| cp [source] [destination] | Copies a file or directory.                           |
-| mv [source] [destination] | Moves or renames a file or directory.                 |
-| touch [file]               | Creates an empty file or updates its timestamp.       |
-| nano [file]                | Opens the file in the nano text editor.               |
-| cat [file]                 | Displays the entire content of a file.                |
-| head [file]                | Shows the first 10 lines of a file.                   |
-| tail [file]                | Shows the last 10 lines of a file.                    |
-| less [file]                | Displays file content in a paginated way.             |
-| locate [file]              | Quickly finds the file path.                          |
-| grep "[term]" [file]      | Searches for a specific term inside a file.           |
+| cd [directory]              | Changes to the specified directory.                   |
+| mkdir [directory]           | Creates a new directory.                              |
+| rm [file]                   | Deletes a file.                                       |
+| cp [source] [destination]   | Copies a file or directory.                           |
+| mv [source] [destination]   | Moves or renames a file or directory.                 |
+| touch [file]                | Creates an empty file or updates its timestamp.       |
+| cat [file]                  | displays the contents of files in the terminal.       |
+| nano [file]                 | Opens the file in the nano text editor.               |
+| cat [file]                  | Displays the entire content of a file.                |
+| head [file]                 | Shows the first 10 lines of a file.                   |
+| tail [file]                 | Shows the last 10 lines of a file.                    |
+| less [file]                 | Displays file content in a paginated way.             |
+| locate [file]               | Quickly finds the file path.                          |
+| grep "[term]" [file]        | Searches for a specific term inside a file.           |
 
 ---
 
